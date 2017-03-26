@@ -1,0 +1,22 @@
+{
+  "name": "lunacast-client",
+  "version": "0.0.1",
+  "description": "A static front end for the LunaCast site.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinisi/lunacast-client.git"
+  },
+  "author": "Tinisi",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/tinisi/lunacast-client/issues"
+  },
+  "homepage": "https://github.com/tinisi/lunacast-client#readme",
+  "devDependencies": {
+    "create-react-app": "^1.3.0"
+  }
+}
