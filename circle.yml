@@ -1,0 +1,22 @@
+
+machine:
+  python:
+    version: 2.7.12
+
+dependencies:
+  pre:
+    - pip install -r scripts/requirements_dev.txt
+
+test:
+  override:
+    - pytest
+
+deployment:
+  development:
+    branch: develop
+    commands:
+      - cd scripts && fab setup:dev deploy:dev
+  production:
+    branch: master
+    commands:
+      - cd scripts && fab setup:prod deploy:prod 

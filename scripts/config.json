@@ -1,0 +1,29 @@
+{
+	"shared_conf": {
+		"debug": false,
+		"env_map": {
+			"local": "localhost",
+			"dev": "altar.onholyground.com",
+			"prod": "altar.onholyground.com"
+		}
+	},	
+	"host_conf": {
+		"localhost": {
+			"local": {
+				"source_path": "../lunacast-client/build/*",
+				"deploy_path": "/Users/tinisi/lc-deploy-test"
+			}
+
+		},
+		"altar.onholyground.com": {
+			"dev": {
+				"source_path": "../lunacast-client/build/*",
+				"deploy_path": "/www/dev.lunacast.com/htdocs"
+			},
+			"prod": {
+				"source_path": "../lunacast-client/build/*",
+				"deploy_path": "/www/lunacast.com/htdocs",
+			}
+		}
+	}
+}
