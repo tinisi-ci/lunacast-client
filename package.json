@@ -4,7 +4,8 @@
   "description": "A static front end for the LunaCast site.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create-react-app": "create-react-app"
   },
   "repository": {
     "type": "git",
