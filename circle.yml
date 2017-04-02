@@ -1,4 +1,9 @@
 
+general:
+  branches:
+    only:
+      - feature/hello-world
+
 machine:
   python:
     version: 2.7.12
