@@ -17,7 +17,7 @@
 		"altar.onholyground.com": {
 			"dev": {
 				"source_path": "../lunacast-client/build/*",
-				"deploy_path": "/www/dev.lunacast.com/files/deploy_test"
+				"deploy_path": "/www/dev.lunacast.com/htdocs"
 			},
 			"prod": {
 				"source_path": "../lunacast-client/build/*",
