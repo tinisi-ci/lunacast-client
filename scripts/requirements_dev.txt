@@ -1,6 +1,6 @@
 appdirs==1.4.3
 cffi==1.9.1
--e git://github.com/tinisi/confighelper.git@810753281ae453eef3e2a9b8d6f450fe99a8c947#egg=confighelper
+-e git://github.com/tinisi/confighelper.git#egg=confighelper
 cryptography==1.7.2
 enum34==1.1.6
 Fabric==1.13.1

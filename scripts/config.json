@@ -13,16 +13,15 @@
 				"source_path": "../lunacast-client/build/*",
 				"deploy_path": "/Users/tinisi/lc-deploy-test"
 			}
-
 		},
 		"altar.onholyground.com": {
 			"dev": {
 				"source_path": "../lunacast-client/build/*",
-				"deploy_path": "/www/dev.lunacast.com/htdocs"
+				"deploy_path": "/www/dev.lunacast.com/files/deploy_test"
 			},
 			"prod": {
 				"source_path": "../lunacast-client/build/*",
-				"deploy_path": "/www/lunacast.com/htdocs",
+				"deploy_path": "/www/lunacast.com/htdocs"
 			}
 		}
 	}
