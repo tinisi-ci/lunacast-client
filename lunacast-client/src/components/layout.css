@@ -1,0 +1,28 @@
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.menu-item {
+  float: left;
+}
+
+.menu-item  a {
+  text-decoration: none;
+  color: #ffffff;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.logo {
+  height: 110px;
+  background: url(./layout/lunacast-logo-white-back.svg);
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-position: center;
+}
