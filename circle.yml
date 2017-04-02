@@ -1,9 +1,4 @@
 
-general:
-  branches:
-    only:
-      - feature/hello-world
-
 machine:
   python:
     version: 2.7.12
@@ -15,11 +10,6 @@ dependencies:
     - pip install -r scripts/requirements_dev.txt
 
 deployment:
-  expiremental:
-    branch: feature/hello-world
-    commands:
-      - npm run build
-      - cd scripts && fab setup:dev deploy:dev
   development:
     branch: develop
     commands:
