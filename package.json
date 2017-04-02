@@ -6,6 +6,7 @@
   "scripts": {
     "test": "cd lunacast-client && CI=true npm test",
     "build": "cd lunacast-client && npm run build",
+    "install": "cd lunacast-client && npm install",
     "create-react-app": "create-react-app"
   },
   "repository": {
