@@ -1,0 +1,22 @@
+
+machine:
+  python:
+    version: 2.7.12
+  node:
+    version: 6.1.0
+
+dependencies:
+  pre:
+    - pip install -r scripts/requirements_dev.txt
+
+deployment:
+  development:
+    branch: develop
+    commands:
+      - npm run build
+      - cd scripts && fab setup:dev deploy:dev
+  production:
+    branch: master
+    commands:
+      - npm run build
+      - cd scripts && fab setup:prod deploy:prod 
